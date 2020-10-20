@@ -115,6 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Encryption.h" />
+    <ClInclude Include="PlayfairSquare.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Encryption.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="PlayfairSquare.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
